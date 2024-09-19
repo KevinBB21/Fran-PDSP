@@ -1,6 +1,5 @@
 entrada = input("Buenas, dime las palabras que quieras separadas por espacios y te dare la mas larga: ")
-listapal = [pal for pal in entrada.split()]
-
+listapal = entrada.split()
 mas_larga = listapal[0]
 
 for pal in listapal:
